@@ -1,3 +1,4 @@
+import { CardPensamentoComponent } from './component/card-pensamento/card-pensamento.component';
 import { ListarPensamentosComponent } from './component/listar-pensamentos/listar-pensamentos.component';
 import { CriarPensamentoComponent } from './component/pensamentos/criar-pensamento/criar-pensamento.component';
 import { RodapeComponent } from './component/rodape/rodape.component';
@@ -15,8 +16,8 @@ import { FormsModule } from '@angular/forms';
     CabecalhoComponent,
     RodapeComponent,
     CriarPensamentoComponent,
-    ListarPensamentosComponent
-
+    ListarPensamentosComponent,
+    CardPensamentoComponent
   ],
   imports: [
     BrowserModule,
