@@ -1,9 +1,9 @@
 {
-  "pensamentos" : [
+  "pensamentos": [
     {
       "id": 1,
-      "conteudo": "A vida é bela",
-      "autor": "Eu"
+      "conteudo": "teste",
+      "autor": "tesste"
     },
     {
       "id": 2,
@@ -13,16 +13,6 @@
     {
       "id": 3,
       "conteudo": "Programar é legal",
-      "autor": "Eu"
-    },
-    {
-      "id": 4,
-      "conteudo": "São Paulo é linda",
-      "autor": "Eu"
-    },
-    {
-      "id": 5,
-      "conteudo": "Futebol é legal",
       "autor": "Eu"
     }
   ]

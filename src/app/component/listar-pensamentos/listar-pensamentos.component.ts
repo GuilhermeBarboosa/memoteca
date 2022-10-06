@@ -13,6 +13,10 @@ export class ListarPensamentosComponent implements OnInit {
   constructor(private pensamentoService: PensamentoService) {}
 
   ngOnInit() {
-    this.pensamentoService.getAll();
+    this.pensamentoService.getAll().subscribe(response =>{
+      this.listaPensamentos = response;
+    }, Error =>{
+      console.log("Ocooreu um erro ao listar os pensamentos");
+    });
   }
 }

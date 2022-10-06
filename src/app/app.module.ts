@@ -1,3 +1,4 @@
+import { EditarPensamentoComponent } from './component/pensamentos/editar-pensamento/editar-pensamento.component';
 import { CardPensamentoComponent } from './component/card-pensamento/card-pensamento.component';
 import { ListarPensamentosComponent } from './component/listar-pensamentos/listar-pensamentos.component';
 import { CriarPensamentoComponent } from './component/pensamentos/criar-pensamento/criar-pensamento.component';
@@ -18,7 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
     RodapeComponent,
     CriarPensamentoComponent,
     ListarPensamentosComponent,
-    CardPensamentoComponent
+    CardPensamentoComponent,
+    EditarPensamentoComponent
   ],
   imports: [
     BrowserModule,
