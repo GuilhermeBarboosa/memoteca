@@ -9,8 +9,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { BotaoCarregarMaisComponent } from './component/listar-pensamentos/botao-carregar-mais/botao-carregar-mais.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +21,15 @@ import { HttpClientModule } from '@angular/common/http';
     CriarPensamentoComponent,
     ListarPensamentosComponent,
     CardPensamentoComponent,
-    EditarPensamentoComponent
+    EditarPensamentoComponent,
+    BotaoCarregarMaisComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
