@@ -3,7 +3,7 @@
     {
       "conteudo": "A vida e uma caixa preta nunca saberemos o seu real significado.",
       "autor": "Carlos",
-      "favorito": false,
+      "favorito": true,
       "modelo": "modelo1",
       "id": 4
     },
@@ -24,7 +24,7 @@
     {
       "conteudo": "Seja estranho. Seja aleatório. Seja quem você é. Porque você nunca sabe quem amaria a pessoa que você esconde.",
       "autor": "Gabriela",
-      "favorito": true,
+      "favorito": false,
       "modelo": "modelo1",
       "id": 7
     },
