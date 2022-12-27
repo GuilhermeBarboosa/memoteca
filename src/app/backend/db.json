@@ -1,51 +1,58 @@
 {
   "pensamentos": [
     {
-      "conteudo": "sda",
-      "autor": "dsadas",
+      "conteudo": "A vida e uma caixa preta nunca saberemos o seu real significado.",
+      "autor": "Carlos",
+      "favorito": false,
       "modelo": "modelo1",
       "id": 4
     },
     {
-      "conteudo": "rrrrr",
-      "autor": "rrrrrrrrrrrrrrrrr",
+      "conteudo": "Não deveríamos temer a morte, mais sim a vida.",
+      "autor": "Julia",
+      "favorito": false,
       "modelo": "modelo3",
       "id": 5
     },
     {
-      "conteudo": "rrrrr",
-      "autor": "rrrrrrrrrrrrrrrrr",
-      "modelo": "modelo3",
+      "conteudo": "Faça a pessoa que você gosta se sentir especial ao invés de só mais uma.",
+      "autor": "Fernanda",
+      "favorito": false,
+      "modelo": "modelo2",
       "id": 6
     },
     {
-      "conteudo": "rrrrr",
-      "autor": "rrrrrrrrrrrrrrrrr",
-      "modelo": "modelo3",
+      "conteudo": "Seja estranho. Seja aleatório. Seja quem você é. Porque você nunca sabe quem amaria a pessoa que você esconde.",
+      "autor": "Gabriela",
+      "favorito": true,
+      "modelo": "modelo1",
       "id": 7
     },
     {
-      "conteudo": "rrrrr",
-      "autor": "rrrrrrrrrrrrrrrrr",
+      "conteudo": "A verdade, é que dói lembrar dela.",
+      "autor": "Pessoa",
+      "favorito": false,
       "modelo": "modelo3",
       "id": 8
     },
     {
-      "conteudo": "rrrrr",
-      "autor": "rrrrrrrrrrrrrrrrr",
-      "modelo": "modelo3",
+      "conteudo": "Um ato aleatório de bondade, por menor que seja, pode ter um tremendo impacto na vida de outra pessoa.",
+      "autor": "Maria",
+      "favorito": true,
+      "modelo": "modelo2",
       "id": 9
-    }
-    ,
+    },
     {
-      "conteudo": "rrrrr",
-      "autor": "rrrrrrrrrrrrrrrrr",
-      "modelo": "modelo3",
+      "conteudo": "O aleatório não existe, nosso cérebro sempre toma decisões mesmo que ocultas.",
+      "autor": "K",
+      "favorito": false,
+      "modelo": "modelo1",
       "id": 10
     },
     {
-      "conteudo": "rrrrr",
-      "autor": "rrrrrrrrrrrrrrrrr",
+      "conteudo": "Sinto falta daquelas risadas, mas lembro como você fazia me sentir sozinho.",
+      "autor": "Marcos",
+      "favorito": true,
       "modelo": "modelo3",
       "id": 11
     }

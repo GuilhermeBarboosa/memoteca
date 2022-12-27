@@ -1,6 +1,7 @@
 export interface Pensamento {
-  id?: number,
-  conteudo: string;
-  autor: string;
-  modelo: string;
+  id?: number
+  conteudo: string
+  autor: string
+  modelo: string
+  favorito: boolean
 }

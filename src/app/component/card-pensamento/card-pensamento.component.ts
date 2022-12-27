@@ -1,3 +1,4 @@
+import { PensamentoService } from './../../services/pensamento.service';
 import { Pensamento } from './../pensamentos/pensamento';
 import { Component, Input, OnInit } from '@angular/core';
 
@@ -12,10 +13,11 @@ export class CardPensamentoComponent implements OnInit {
     conteudo: "",
     autor: "",
     modelo: "",
+    favorito: false,
     id: 0
   }
 
-  constructor() { }
+  constructor(private pensamentoService: PensamentoService) { }
 
   ngOnInit() {
   }
@@ -28,4 +30,15 @@ export class CardPensamentoComponent implements OnInit {
    }
   }
 
+  mudarIconeFavorito(): String{
+    if(this.pensamento.favorito){
+      return 'ativo';
+    }else{
+      return 'inativo';
+    }
+  }
+
+  atualizarFavorito(): void{
+    this.pensamentoService.mudarFavorito(this.pensamento).subscribe();
+  }
 }

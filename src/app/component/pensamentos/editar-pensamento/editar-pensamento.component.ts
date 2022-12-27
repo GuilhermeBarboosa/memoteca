@@ -24,10 +24,11 @@ export class EditarPensamentoComponent implements OnInit {
     const id = this.activatedRoute.snapshot.paramMap.get('id');
     this.pensamentoService.getById(parseInt(id!)).subscribe((pensamento) => {
       this.formulario = this.formBuilder.group({
-        id: pensamento.id, 
+        id: pensamento.id,
         conteudo: [pensamento.conteudo, Validators.compose([ Validators.required, Validators.pattern(/(.|\s)*\S(.|\s)*/), ])],
         autor: [pensamento.autor, Validators.compose([ Validators.required, Validators.minLength(3), Validators.maxLength(50) ])],
-        modelo: pensamento.modelo,
+        modelo: [pensamento.modelo],
+        favorito: [pensamento.favorito],
       });
     });
   }
